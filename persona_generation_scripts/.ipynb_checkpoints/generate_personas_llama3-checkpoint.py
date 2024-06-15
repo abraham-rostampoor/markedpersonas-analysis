@@ -23,7 +23,7 @@ else:
 client = Together(api_key=together_api_key)
 
 # Set the output directory
-output_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data/llama3')
+output_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'new_data/llama3')
 
 # Ensure the output directory exists
 os.makedirs(output_dir, exist_ok=True)
@@ -82,9 +82,9 @@ def main():
                         final = pd.concat([final, df2])
                         logging.info(f'Generated persona for {gen} {r} using prompt {prompt_num}')
                         if json:
-                            final.to_csv(os.path.join(output_dir, 'generated_personas_%s_json_%d_nb.csv' % (model_name, num_gens)), index=False)
+                            final.to_csv(os.path.join(output_dir, '%s_personas_json.csv' % (model_name)), index=False)
                         else:
-                            final.to_csv(os.path.join(output_dir, 'generated_personas_llama3.csv'), index=False)
+                            final.to_csv(os.path.join(output_dir, '%s_personas.csv' % (model_name)), index=False)
 
 @backoff.on_exception(backoff.expo, (requests.exceptions.RequestException,), max_tries=10)
 def get_gen(prompt, model_name, num_completions=1):

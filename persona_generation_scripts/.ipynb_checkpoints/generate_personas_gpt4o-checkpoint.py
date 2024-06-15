@@ -22,7 +22,7 @@ else:
 openai.api_key = openai_api_key
 
 # Set the output directory
-output_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data/gpt-4o')
+output_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'new_data/gpt-4o')
 
 def main():
     parser = argparse.ArgumentParser()
@@ -78,9 +78,9 @@ def main():
                         final = pd.concat([final, df2])
                         logging.info(f'Generated persona for {gen} {r} using prompt {prompt_num}')
                         if json:
-                            final.to_csv(os.path.join(output_dir, '%s_all_personas_json.csv' % (model_name)), index=False)
+                            final.to_csv(os.path.join(output_dir, '%s_personas_json.csv' % (model_name)), index=False)
                         else:
-                            final.to_csv(os.path.join(output_dir, '%s_all_personas.csv' % (model_name)), index=False)
+                            final.to_csv(os.path.join(output_dir, '%s_personas.csv' % (model_name)), index=False)
 
 @backoff.on_exception(backoff.expo, (openai.OpenAIError, openai.RateLimitError))
 def get_gen(prompt, model_name, num_completions=1):
