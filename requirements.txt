@@ -1,5 +1,0 @@
-openai
-pandas
-backoff
-python-dotenv
-requests
