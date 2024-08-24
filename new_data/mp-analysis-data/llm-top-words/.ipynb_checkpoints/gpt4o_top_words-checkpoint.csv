@@ -1,0 +1,24 @@
+race,gender,top_words
+a White,,"['blue', 'fair']"
+a Black,,"['rich', 'coiled', 'resilience', 'african', 'deep', 'curls', 'strength', 'tightly', 'tight']"
+an Asian,,"['almondshaped', 'modern', 'dark', 'heritage', 'smooth', 'cultural', 'cheekbones']"
+a Middle-Eastern,,"['dark', 'region', 'olive', 'rich', 'thick']"
+a Latino,,"['heritage', 'spanish', 'dark', 'vibrant', 'rich', 'cultural', 'america']"
+,W,[]
+,M,"['brown', 'straight', 'dark', 'build', 'facial', 'physical']"
+,N,"['gender', 'identity', 'person', 'traditional', 'alex', 'elements', 'norms']"
+a White,W,[]
+a White,M,"['blue', 'light', 'fair']"
+a White,N,['traditional']
+a Black,W,[]
+a Black,M,[]
+a Black,N,"['bold', 'patterns', 'unique', 'braids', 'curls', 'vibrant', 'traditional', 'blend']"
+an Asian,W,['almondshaped']
+an Asian,M,['almondshaped']
+an Asian,N,"['traditional', 'contemporary', 'blend', 'modern', 'sleek', 'kai']"
+a Middle-Eastern,W,[]
+a Middle-Eastern,M,[]
+a Middle-Eastern,N,"['contemporary', 'traditional', 'flowing', 'samira', 'intricate', 'loose', 'blend', 'tunic']"
+a Latino,W,['alejandro']
+a Latino,M,['vibrant']
+a Latino,N,"['alex', 'traditional', 'vibrant', 'american', 'colorful', 'patterns']"

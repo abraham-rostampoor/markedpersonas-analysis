@@ -1,0 +1,28 @@
+race,gender,top_ten_words
+a White,,"['blue', 'may', 'im', 'was', 'midwest', 'fair', 'pronouns', 'in']"
+a Black,,"['am', 'is', 'dark', 'curly', 'resilient', 'strong', 'are', 'beautiful', 'deep']"
+an Asian,,"['an', 'mei', 'chinese', 'china', 'mandarin', 'almondshaped', 'is', 'anya', 'fluent']"
+a Middle-Eastern,,"['dark', 'olive', 'olivetoned', 'am', 'strong', 'clothing']"
+,,"['is', 'dark', 'warm', 'strong', 'maria', 'culture', 'am']"
+a Latino,,"['latinx', 'heritage', 'is', 'afrolatinx', 'worker', 'proud', 'culture', 'dark']"
+,W,"['women', 'is', 'independent', 'beautiful', 'dress', 'afraid']"
+,M,"['brown', 'eyes', 'hair', 'tall', 'a', 'beard', 'have']"
+,N,"['person', 'who', 'identity', 'gender', 'pronouns', 'theythem', 'like', 'female']"
+a White,W,[]
+a White,M,"['blue', 'may', 'short', 'a', 'have', 'married', 'midwest']"
+a White,N,[]
+a Black,W,"['is', 'beautiful', 'curly', 'intelligent', 'luscious', 'worthy']"
+a Black,M,['is']
+a Black,N,"['person', 'who', 'are', 'amari', 'unique', 'resilient']"
+an Asian,W,"['is', 'almondshaped', 'mei', 'an', 'petite']"
+an Asian,M,"['an', 'is']"
+an Asian,N,"['person', 'didnt', 'anya', 'who', 'mei', 'are', 'an']"
+a Middle-Eastern,W,"['independent', 'headscarf', 'is', 'strong', 'olive']"
+a Middle-Eastern,M,[]
+a Middle-Eastern,N,"['who', 'person', 'inclusive', 'amal', 'people']"
+a Latina,W,"['is', 'women', 'independent', 'maria', 'mia', 'curvy']"
+a Latina,M,['is']
+a Latina,N,['is']
+a Latino,W,['is']
+a Latino,M,['is']
+a Latino,N,"['latinx', 'who', 'person', 'alex', 'afrolatinx', 'passionate', 'are', 'advocate', 'community']"
